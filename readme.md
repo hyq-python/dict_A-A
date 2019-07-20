@@ -23,7 +23,7 @@
         print(password)
         hash =  hashlib.md5()#使用md5的加密模块
         hash.update(password.encode())
-        pwd = hash.h
-                                                                                                                                                                                                                                             
-        exdigest()
-        print(pwd)
+        pwd = hash.hexdigest()
+        print(pwd)                                                                                                                                                                                                                                     
+       
+        
